@@ -1,4 +1,4 @@
-module kubevirt.io/client-go
+module github.com/hongzhen-ma/kubevirt.io/client-go
 
 go 1.17
 
@@ -76,6 +76,7 @@ require (
 
 replace (
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20210105115604-44119421ec6b
+	github.com/hongzhen-ma/kubevirt.io/client-go => kubevirt.io/client-go v0.50.0
 
 	k8s.io/api => k8s.io/api v0.23.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.23.1
